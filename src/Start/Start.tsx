@@ -1,14 +1,21 @@
 import React from 'react';
-import Header from "./Header";
-import Title from "./Title";
+import Header from "../duplicateComponent/Header";
+import Title from "../duplicateComponent/Title";
 import Info from "./Info";
+import Footer from "../duplicateComponent/Footer";
 
-function Start() {
+
+type Start={
+    changeScreen:any
+}
+
+const Start: React.FC<Start> = (props) => {
     return (
     <>
     <Header/>
     <Title/>
-    <Info/>
+    <Info changeScreen={props.changeScreen}/>
+    <Footer/>
     </>
     )
 }

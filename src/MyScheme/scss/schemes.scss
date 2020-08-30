@@ -1,0 +1,35 @@
+.schemes {
+  height: 744px;
+
+  &__row {
+    padding: 0 42px;
+    margin-bottom: 60px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-family: "Myriad";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 120%;
+    color: #000000;
+  }
+
+  &__add {
+    opacity: 0.6;
+    border: 1px dashed #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176px;
+    height: 232px;
+    margin-right: 16px;
+    background: rgba(0, 109, 241, 0.1);
+    &:hover{
+      border-radius: 5px;
+    }
+  }
+}

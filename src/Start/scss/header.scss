@@ -27,12 +27,21 @@
     align-items: flex-end;
     width: 266px;
     &-title{
-      font-family: Myriad Pro;
+      font-family: 'Myriad';
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
       line-height: 150%;
       color: #000000;
+    }
+    &-item{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-decoration: none;
+      &:focus{
+        outline: none;
+      }
     }
   }
 }

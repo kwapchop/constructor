@@ -1,0 +1,86 @@
+$fonts-path: '../';
+
+// Myriad Pro
+@font-face {
+  font-family: 'Myriad';
+  src: url('#{$fonts-path}/myriad/MyriadPro-Regular.woff2') format('woff2'),
+  url('#{$fonts-path}/myriad/MyriadPro-Regular.woff') format('woff'),
+  url('#{$fonts-path}/myriad/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('#{$fonts-path}/myriad/MyriadPro-It.woff2') format('woff2'),
+  url('#{$fonts-path}/myriad/MyriadPro-It.woff') format('woff'),
+  url('#{$fonts-path}/myriad/MyriadPro-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('#{$fonts-path}/myriad/MyriadPro-Bold.woff2') format('woff2'),
+  url('#{$fonts-path}/myriad/MyriadPro-Bold.woff') format('woff'),
+  url('#{$fonts-path}/myriad/MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad';
+  src: url('#{$fonts-path}/myriad/MyriadPro-BoldIt.woff2') format('woff2'),
+  url('#{$fonts-path}/myriad/MyriadPro-BoldIt.woff') format('woff'),
+  url('#{$fonts-path}/myriad/MyriadPro-BoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+//Fira Sans
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('#{$fonts-path}/fira/FiraSans-Regular.woff2') format('woff2'),
+  url('#{$fonts-path}/fira/FiraSans-Regular.woff') format('woff'),
+  url('#{$fonts-path}/fira/FiraSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('#{$fonts-path}/fira/FiraSans-Bold.woff2') format('woff2'),
+  url('#{$fonts-path}/fira/FiraSans-Bold.woff') format('woff'),
+  url('#{$fonts-path}/fira/FiraSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('#{$fonts-path}/fira/FiraSans-Black.woff2') format('woff2'),
+  url('#{$fonts-path}/fira/FiraSans-Black.woff') format('woff'),
+  url('#{$fonts-path}/fira/FiraSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+//Dobrozrachniy
+@font-face {
+  font-family: 'Dobrozrachniy';
+  src: url('#{$fonts-path}/Dobrozrachniy/Dobrozrachniy-Regular.woff2') format('woff2'),
+  url('#{$fonts-path}/Dobrozrachniy/Dobrozrachniy-Regular.woff') format('woff'),
+  url('#{$fonts-path}/Dobrozrachniy/Dobrozrachniy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dobrozrachniy';
+  src: url('#{$fonts-path}/Dobrozrachniy/Dobrozrachniy-Oblique.woff2') format('woff2'),
+  url('#{$fonts-path}/Dobrozrachniy/Dobrozrachniy-Oblique.woff') format('woff'),
+  url('#{$fonts-path}/Dobrozrachniy/Dobrozrachniy-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
