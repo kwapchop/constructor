@@ -4,7 +4,7 @@ import arrow from "../image/svg/arrow-down.svg";
 import addScheme from "../image/svg/add-scheme.svg";
 
 type Schemes = {
-    list: any[],
+    list: {title:string,data:string,img:any}[],
     title: string,
 }
 
@@ -19,9 +19,9 @@ const SchemeRow: React.FC<Schemes> = (props) => {
                 <div className="schemes__add">
                     <img src={addScheme} alt=""/>
                 </div>
-                {props.list.map(element => {
+                {props.list.map((element,i) => {
                     return (
-                        <Scheme/>
+                        <Scheme item={element} key={i}/>
                     )
                 })}
             </div>
